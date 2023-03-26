@@ -24,14 +24,16 @@ function BCell(props) {
     );
 }
 
-function Board() {
-  const [count, setCount] = useState(0)
+function Board(props) {
+  /*const [count, setCount] = useState(0)
 
   const whiteMove=0;
 
   const position = "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R";
+*/
+  let whiteMove = props.whiteMove;
+  let pos = props.position;
 
-  var pos = position;
   var piecesOnBoard = pos.split("/");
   if(whiteMove == 0){
     piecesOnBoard = piecesOnBoard.reverse();
