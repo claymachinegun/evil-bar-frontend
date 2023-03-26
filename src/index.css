@@ -15,6 +15,7 @@ body {
     @apply pt-2.5             ;
     @apply pb-2               ;
     @apply mx-2;
+    @apply my-1;
     @apply text-xs            ;
     @apply font-medium        ;
     @apply uppercase          ;

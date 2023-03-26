@@ -38,10 +38,16 @@ function App() {
     }, []);
 
   return (
-    <div >
-      <h1>{position.id}</h1>
+    <div className="grid">
       <Board whiteMove={`${position.moveSide == "WHITE" ? 1 : 0}`} position={position.position} />
-      <button className="bg-blue-800 text-white" onClick={nextButton} >UPDATE</button>
+        <div className="grid">
+      <div className="place-self-center">
+            <button className="btn btn-white w-3/12 lg:w-auto">White</button>
+            <button className="btn btn-draw w-3/12 lg:w-auto">Draw</button>
+            <button className="btn btn-black w-3/12 lg:w-auto">Black</button>
+      </div>
+            <button className="place-self-center btn btn-default w-11/12 lg:w-auto" onClick={nextButton}>Next</button>
+        </div>
     </div>
   )
 }
