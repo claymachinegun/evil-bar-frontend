@@ -1,0 +1,12 @@
+https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/tatiana/bK.svg
+https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/tatiana/bQ.svg
+https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/tatiana/bR.svg
+https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/tatiana/bB.svg
+https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/tatiana/bN.svg
+https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/tatiana/bP.svg
+https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/tatiana/wK.svg
+https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/tatiana/wQ.svg
+https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/tatiana/wR.svg
+https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/tatiana/wB.svg
+https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/tatiana/wN.svg
+https://raw.githubusercontent.com/lichess-org/lila/master/public/piece/tatiana/wP.svg

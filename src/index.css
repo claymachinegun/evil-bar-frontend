@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-800;
+}
+
+.btn {
+    @apply inline-block;
+    @apply border;
+    @apply border-2;
+    @apply rounded; 
+    @apply px-6               ;
+    @apply pt-2.5             ;
+    @apply pb-2               ;
+    @apply mx-2;
+    @apply text-xs            ;
+    @apply font-medium        ;
+    @apply uppercase          ;
+    @apply leading-normal     ;
+    @apply text-white         ;
+}
+
+.btn-black {
+    @apply border-blue-700;
+    @apply bg-slate-800        ;
+    @apply hover:bg-blue-600  ;
+    @apply focus:bg-blue-600  ;
+    @apply active:bg-blue-700 ;   
+}
+
+.btn-white {
+    @apply text-black;
+    @apply border-blue-700;
+    @apply bg-white        ;
+    @apply hover:font-bold;
+    @apply focus:border-blue-400  ;
+    @apply active:border-blue-800 ;   
+}
+
+.btn-draw {
+    @apply border-green-700;
+    @apply bg-green-800;        ;
+    @apply hover:bg-green-600  ;
+    @apply focus:bg-green-600  ;
+    @apply active:bg-green-700 ;   
+}
+
+.btn-default {
+    @apply border-blue-700;
+    @apply bg-blue-800        ;
+    @apply hover:bg-blue-600  ;
+    @apply focus:bg-blue-600  ;
+    @apply active:bg-blue-700 ;   
+
+}
