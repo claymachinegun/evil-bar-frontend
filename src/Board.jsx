@@ -57,7 +57,6 @@ function Board(props) {
         <div className="place-self-center p-4">
             {rows}
         </div>
-
   );
 }
 
